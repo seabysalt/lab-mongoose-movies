@@ -2,9 +2,9 @@
 <p>Occupation: {{celebrityDetails.occupation}}</p>
 <p>Catch Phrase: "{{celebrityDetails.catchPhrase}}"</p>
 
-<form action="/celebrities/{{_id}}" method="post">
+<form action="/celebrities/{{celebrityDetails._id}}" method="post">
   <label for="name">Name: </label>
-  <input type="text" name="name" id="name" />
+  <input type="text" name="name" id="name" value='{{celebrityDetails.name}}'/>
 
   <label for="occupation">Occupation: </label>
   <select name="occupation">
@@ -16,7 +16,7 @@
   </select>
 
   <label for="catchPhrase">Catch Phrase: </label>
-  <input type="text" name="catchPhrase" id="catchPhrase">
+  <input type="text" name="catchPhrase" id="catchPhrase" value='{{celebrityDetails.catchPhrase}}''>
 
   <button type="submit">Update this celebrity!</button>
 </form>
