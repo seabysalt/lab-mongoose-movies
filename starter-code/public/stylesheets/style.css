@@ -1,8 +1,38 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100vh;
+  width: 100vw; }
 
 a {
-  color: #00B7FF; }
+  color: white;
+  background-color: coral;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 30px; }
+
+button {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  margin-top: 30px; }
+
+p {
+  padding-bottom: 20px; }
+
+.header {
+  background-color: coral; }
+
+.footer {
+  background-color: 10px;
+  height: 40px; }
+
+.aName {
+  background-color: white;
+  color: coral;
+  padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
